@@ -1,0 +1,39 @@
+body {
+    background: #F5F6F5;
+    font-family: 'Oswald', sans-serif;
+    overflow: hidden; /* Comando para colocar el contenedor flotando al centro de la aplicacion */
+}
+
+.index {
+    width: 100vw; /* Ancho total del dispositivo */
+    height: 100vh; /* Alto total del dispositivo */
+}
+
+.masthead {
+    color: white;
+    min-height: 30rem;
+    width: 100%;
+    height: 100%;
+    padding-top: 8rem;
+    background: url('/img/background.jpeg');
+    background-position: center center; /* Centrado vertical y horizontalmente */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.masthead h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------- */
+/* MEDIAQUERIES */
+/* ------------------------- */
+@media screen and (max-width: 992px) {
+    .masthead h1 {
+        font-size: 5.5rem;
+    }
+
+
+}
